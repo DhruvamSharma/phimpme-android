@@ -13,7 +13,8 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@+id/toolbar"
-        android:layout_centerInParent="true" />
+        android:layout_centerInParent="true"
+        android:focusable="true" />
 
 
     <include
@@ -44,7 +45,8 @@
                 android:clickable="true"
                 android:foreground="@drawable/ripple"
                 app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation">
+                app:cardElevation="@dimen/card_elevation"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -55,7 +57,7 @@
                         android:id="@+id/general_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/medium_spacing"
+                        android:paddingStart="@dimen/medium_spacing"
                         android:paddingTop="@dimen/medium_spacing"
                         android:text="@string/general"
                         android:textColor="@color/md_dark_background"
@@ -70,7 +72,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/camera_icon"
@@ -86,7 +89,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <TextView
@@ -114,7 +117,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/security_icon"
@@ -130,7 +134,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/medium_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <TextView
@@ -159,7 +163,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/n_columns_icon"
@@ -175,7 +180,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/sub_small_spacing">
 
                             <TextView
@@ -204,7 +209,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/excluded_album_icon"
@@ -220,7 +226,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <TextView
@@ -253,7 +259,8 @@
                 android:clickable="true"
                 android:foreground="@drawable/ripple"
                 app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation">
+                app:cardElevation="@dimen/card_elevation"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -264,7 +271,7 @@
                         android:id="@+id/theme_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/medium_spacing"
+                        android:paddingStart="@dimen/medium_spacing"
                         android:paddingTop="@dimen/medium_spacing"
                         android:text="@string/theme"
                         android:textColor="@color/md_dark_background"
@@ -279,7 +286,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/basic_theme_icon"
@@ -295,7 +303,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <TextView
@@ -324,7 +332,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/primary_color_icon"
@@ -340,7 +349,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <TextView
@@ -369,7 +378,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/accent_color_icon"
@@ -414,7 +424,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/custom_3thact_icon"
@@ -430,7 +441,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <TextView
@@ -459,7 +470,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/traslucent_statusbar_icon"
@@ -476,7 +488,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <LinearLayout
@@ -523,7 +535,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/nav_bar_icon"
@@ -540,7 +553,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:layout_marginBottom="@dimen/medium_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <LinearLayout
@@ -591,7 +604,8 @@
                 android:clickable="true"
                 android:foreground="@drawable/ripple"
                 app:cardCornerRadius="@dimen/card_corner_radius"
-                app:cardElevation="@dimen/card_elevation">
+                app:cardElevation="@dimen/card_elevation"
+                android:focusable="true">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -602,7 +616,7 @@
                         android:id="@+id/picture_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/medium_spacing"
+                        android:paddingStart="@dimen/medium_spacing"
                         android:paddingTop="@dimen/medium_spacing"
                         android:text="@string/media_viewer"
                         android:textColor="@color/md_dark_background"
@@ -617,7 +631,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/ll_switch_max_luminosity_icon"
@@ -634,7 +649,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <LinearLayout
@@ -681,7 +696,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/ll_switch_picture_orientation_icon"
@@ -698,7 +714,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/medium_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <LinearLayout
@@ -745,7 +761,8 @@
                         android:background="@drawable/ripple"
                         android:clickable="true"
                         android:orientation="horizontal"
-                        android:visibility="gone">
+                        android:visibility="gone"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/ll_switch_full_resolution_icon"
@@ -762,7 +779,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/medium_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/small_spacing">
 
                             <LinearLayout
@@ -810,7 +827,8 @@
                         android:clickable="true"
                         android:gravity="center_vertical"
                         android:orientation="horizontal"
-                        android:visibility="gone">
+                        android:visibility="gone"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/media_viewer_swipe_direction_Icon"
@@ -827,7 +845,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <LinearLayout
@@ -889,7 +907,7 @@
                         android:id="@+id/advanced_setting_title"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:paddingLeft="@dimen/medium_spacing"
+                        android:paddingStart="@dimen/medium_spacing"
                         android:paddingTop="@dimen/medium_spacing"
                         android:text="@string/advanced"
                         android:textColor="@color/md_dark_background"
@@ -904,7 +922,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/map_provider_icon"
@@ -920,7 +939,7 @@
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_text"
+                            android:paddingEnd="@dimen/medium_text"
                             android:paddingTop="@dimen/small_spacing">
 
                             <TextView
@@ -949,7 +968,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/auto_update_media_Icon"
@@ -966,7 +986,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <LinearLayout
@@ -1012,7 +1032,8 @@
                         android:layout_height="wrap_content"
                         android:background="@drawable/ripple"
                         android:clickable="true"
-                        android:orientation="horizontal">
+                        android:orientation="horizontal"
+                        android:focusable="true">
 
                         <com.mikepenz.iconics.view.IconicsImageView
                             android:id="@+id/reset_settings_Icon"
@@ -1029,7 +1050,7 @@
                             android:gravity="center_vertical"
                             android:orientation="horizontal"
                             android:paddingBottom="@dimen/small_spacing"
-                            android:paddingRight="@dimen/medium_spacing"
+                            android:paddingEnd="@dimen/medium_spacing"
                             android:paddingTop="@dimen/medium_spacing">
 
                             <LinearLayout
