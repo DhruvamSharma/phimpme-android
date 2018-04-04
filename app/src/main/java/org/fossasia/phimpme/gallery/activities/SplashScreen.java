@@ -159,13 +159,12 @@ public class SplashScreen extends SharedMediaActivity {
         }
     }
 
-
     private static class PrefetchAlbumsData extends AsyncTask<Boolean, Boolean, Boolean> {
 
         WeakReference<Context> contextWeakReference;
         WeakReference<AppCompatActivity> appCompatActivityWeakReference;
 
-        PrefetchAlbumsData(Context applicationContext, SplashScreen splashScreen) {
+        public PrefetchAlbumsData(Context applicationContext, SplashScreen splashScreen) {
             contextWeakReference = new WeakReference<Context>(applicationContext);
             appCompatActivityWeakReference = new WeakReference<AppCompatActivity>(splashScreen);
         }
@@ -206,17 +205,15 @@ public class SplashScreen extends SharedMediaActivity {
         }
     }
 
-
     private static class PrefetchPhotosData extends AsyncTask<Void, Void, Void> {
 
         WeakReference<Context> contextWeakReference;
         WeakReference<AppCompatActivity> appCompatActivityWeakReference;
 
-        PrefetchPhotosData(Context applicationContext, SplashScreen splashScreen) {
+        public PrefetchPhotosData(Context applicationContext, SplashScreen splashScreen) {
             contextWeakReference = new WeakReference<Context>(applicationContext);
             appCompatActivityWeakReference = new WeakReference<AppCompatActivity>(splashScreen);
         }
-
 
         @Override
         protected Void doInBackground(Void... arg0) {
